@@ -13,6 +13,7 @@
 		D1B882352AEA86C00081DFC2 /* CleanUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B882342AEA86C00081DFC2 /* CleanUpTests.swift */; };
 		D1B8823F2AEA86C00081DFC2 /* CleanUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B8823E2AEA86C00081DFC2 /* CleanUpUITests.swift */; };
 		D1B882412AEA86C00081DFC2 /* CleanUpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B882402AEA86C00081DFC2 /* CleanUpUITestsLaunchTests.swift */; };
+		D1D16AB62BE3663E006EEB27 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D16AB52BE3663E006EEB27 /* AlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		D1B8823A2AEA86C00081DFC2 /* CleanUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B8823E2AEA86C00081DFC2 /* CleanUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanUpUITests.swift; sourceTree = "<group>"; };
 		D1B882402AEA86C00081DFC2 /* CleanUpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanUpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D1D16AB52BE3663E006EEB27 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		D1B882212AEA86BF0081DFC2 /* CleanUp */ = {
 			isa = PBXGroup;
 			children = (
+				D1D16AB42BE36629006EEB27 /* Views */,
 				D1B882222AEA86BF0081DFC2 /* CleanUpApp.swift */,
 				D1B882262AEA86C00081DFC2 /* Assets.xcassets */,
 				D1B8822B2AEA86C00081DFC2 /* CleanUp.entitlements */,
@@ -124,6 +127,14 @@
 				D1B882402AEA86C00081DFC2 /* CleanUpUITestsLaunchTests.swift */,
 			);
 			path = CleanUpUITests;
+			sourceTree = "<group>";
+		};
+		D1D16AB42BE36629006EEB27 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D1D16AB52BE3663E006EEB27 /* AlertView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1B882232AEA86BF0081DFC2 /* CleanUpApp.swift in Sources */,
+				D1D16AB62BE3663E006EEB27 /* AlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
